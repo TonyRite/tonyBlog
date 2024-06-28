@@ -7,18 +7,14 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'Food Ordering App front End',
+    description: `I am developing an online food ordering web application inspired by Uber Eats. This project utilizes modern frontend development techniques with React and TypeScript. I have deployed it on Render and used Shadcn for the UI components. The site is still under development, as is common with many personal hobby projects.`,
     imgSrc: '/static/images/google.png',
     href: 'https://www.google.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'TonyEats backend plartform',
+    description: `The backend of my online food ordering web application is built with modern technologies. It uses MongoDB for the database, TypeScript with Node.js and Express for the server, and OAuth for authentication. This setup ensures a robust, scalable, and secure backend architecture.`,
     imgSrc: '/static/images/time-machine.jpg',
     href: '/blog/the-time-machine',
   },
