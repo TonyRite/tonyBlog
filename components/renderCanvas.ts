@@ -144,7 +144,7 @@ export const renderCanvas = function () {
       //     f.amplitude
       //   );
       for (let i = 0; i < E.trails; i++) {
-        let line = lines[i]
+        const line = lines[i]
         line.update()
         line.draw(ctx)
       }
