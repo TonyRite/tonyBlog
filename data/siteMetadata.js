@@ -3,7 +3,8 @@ const siteMetadata = {
   title: 'Tony Codes',
   author: 'Tony Nemes Rite',
   headerTitle: 'tonyrite',
-  description: 'A blog created with Next.js and Tailwind.cssto showcase my understanding of the tech world',
+  description:
+    'A blog created with Next.js and Tailwind.cssto showcase my understanding of the tech world',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://rite.codes',
@@ -21,7 +22,7 @@ const siteMetadata = {
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   locale: 'en-US',
-  Welcome:'Hello I am Tony',
+  Welcome: 'Hello I am Tony',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
