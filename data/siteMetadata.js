@@ -1,4 +1,4 @@
-/** @type {import("pliny/config").PlinyConfig } */
+// /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Tony Codes',
   author: 'Tony Nemes Rite',
@@ -21,6 +21,7 @@ const siteMetadata = {
   threads: 'https://www.threads.net',
   instagram: 'https://www.instagram.com',
   locale: 'en-US',
+  welcome:'Hello I am Tony',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

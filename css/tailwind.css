@@ -49,3 +49,8 @@ input:-webkit-autofill:focus {
   display: inline-block;
   vertical-align: middle;
 }
+
+.transition-in > span {
+  opacity: 1;
+}
+
