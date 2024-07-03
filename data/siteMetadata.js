@@ -4,7 +4,7 @@ const siteMetadata = {
   author: 'Tony Nemes Rite',
   headerTitle: 'tonyrite',
   description:
-    'A blog created with Next.js and Tailwind.cssto showcase my understanding of the tech world',
+    'Dive in my world of tech and learn from what I do and learn daily as I progress through my journey',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://rite.codes',
