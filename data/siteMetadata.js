@@ -14,15 +14,16 @@ const siteMetadata = {
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'tonynemesrite@gmail.com',
   github: 'https://github.com/TonyRite',
-  x: 'https://x.com/the_Good_X',
+  // x: 'https://x.com/the_Good_X',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/tony-rite-0253b82aa/',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  // threads: 'https://www.threads.net',
+  // instagram: 'https://www.instagram.com',
   locale: 'en-US',
-  Welcome: '18 minutes a day , 100 hrs per year thats what it takes to make a change on a skill and become a master at it',
+  Welcome:
+    '18 minutes a day , 100 hrs per year thats what it takes to make a change on a skill and become a master at it',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.

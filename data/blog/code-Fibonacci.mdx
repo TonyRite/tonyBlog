@@ -1,0 +1,53 @@
+title: Understanding Recursion Like a 5-Year-Old  
+date: '2024-11-19'  
+tags: ['recursion', 'fibonacci', 'javascript']  
+draft: false  
+summary: Explaining recursion in simple terms using the Fibonacci sequence as an example.
+
+---
+
+# Understanding Recursion Like a 5-Year-Old
+
+Have you ever stood between two mirrors and seen your reflection going on forever? That's kind of like recursion! 🪞
+
+Recursion is when something refers to itself. In programming, it’s when a function calls itself to solve a smaller piece of the problem. Let’s use the Fibonacci sequence as an example to understand it better.
+
+## What's Fibonacci?
+
+The Fibonacci sequence is a special set of numbers. Each number in the sequence is the sum of the two numbers before it. Here’s what it looks like:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+
+- Start with 0 and 1.
+- Add them together to get the next number.
+- Keep going!
+
+Now, let’s learn how recursion helps us figure out any number in this sequence.
+
+## Explaining with a Story
+
+Imagine you’re trying to figure out the 5th number in the Fibonacci sequence. You ask your older brother, but he says, “I can only tell you the 4th and 3rd numbers. You’ll have to add them.”
+
+You then ask him, “What’s the 4th number?” He says, “I’ll tell you after I figure out the 3rd and 2nd numbers.” And so on.
+
+Eventually, someone will know the answer because the first two numbers are already known: 0 and 1.
+
+This asking-and-answering process is recursion! 🎉
+
+## Fibonacci with Recursion in JavaScript
+
+Here’s how a computer does it:
+
+```javascript
+function fibonacci(n) {
+  // Base cases: the first two numbers are known
+  if (n === 0) return 0
+  if (n === 1) return 1
+
+  // Recursion: ask for the two previous numbers
+  return fibonacci(n - 1) + fibonacci(n - 2)
+}
+
+// Let's find the 5th Fibonacci number
+console.log(fibonacci(5)) // Output: 5
+```
