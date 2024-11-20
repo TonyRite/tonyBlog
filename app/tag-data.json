@@ -1,1 +1,10 @@
-{ "github": 1, "guide": 2, "next-js": 1, "tailwind": 1 }
+{
+  "github": 1,
+  "guide": 2,
+  "next-js": 1,
+  "tailwind": 1,
+  "writings": 1,
+  "book": 1,
+  "reflection": 1,
+  "programming": 2
+}
